@@ -118,9 +118,10 @@ git push -u origin main                     # Push the contents from local repo 
 # 13. Create branches(`Feature` and `dev`) in local GIT repository and then push them to remote repository
 ```markdown
 # Git Branching:
-  Git branches are nothing but parallel line of development in same repository without affecting the `main` branch.
-  Creating git branch will create an exact copy of present state of the branch from where you are executing the branch
-  creation command. We create git branches for testing, adding new feature, fixing bugs etc.
+  Git branches are nothing but parallel line of development in same repository without affecting the
+  `main` branch. Creating git branch will create an exact copy of present state of the branch from where
+  you are executing the branch creation command. We create git branches for testing, adding new feature,
+  fixing bugs etc.
 ```
 ```bash
 git branch                        # To check name of the available branches 
