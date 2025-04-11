@@ -155,6 +155,9 @@ git push origin Feature
 ![image alt](https://github.com/souravhajra123/ElevateLabsTask4/blob/827775e4ff17bb76c7930a1b8c1d757248a82115/images/18.JPG)
 ![image alt](https://github.com/souravhajra123/ElevateLabsTask4/blob/827775e4ff17bb76c7930a1b8c1d757248a82115/images/20.JPG)
 
+# 16. Now we will merge `Feature` branch to `dev` branch by creating `Pull Request` in GitHub console
+  * Create `PR` to merge `Feature` `→` `dev`
+
 
 
 
