@@ -6,7 +6,6 @@
 
 ## Git Features
 - [x] Added `.gitignore`
-- [x] Created annotated Git tags
 
 ## Branching
 - [x] Created `main`, `dev`, `feature/*` branches
