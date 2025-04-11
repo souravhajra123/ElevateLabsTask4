@@ -108,11 +108,30 @@ git branch -M main                          # Change the branch name to 'main'
 git branch                                  # Verify the branch name again
 git remote add origin <github_repo_url>     # Sync local repo with remote repo
 git push -u origin main                     # Push the contents from local repo to remote repo
-# refresh the GitHub repository page
+
+# Now refresh the GitHub repository page
 ```
+![image alt](https://github.com/souravhajra123/ElevateLabsTask4/blob/45b21e92e43e565ad062c30dc3bc777d42c0e0db/images/13.JPG)
+![image alt](https://github.com/souravhajra123/ElevateLabsTask4/blob/45b21e92e43e565ad062c30dc3bc777d42c0e0db/images/14.JPG)
 
+# 13. Create branches(`Feature` and `dev`) in local GIT repository and then push them to remote repository
+```markdown
+# Git Branching:
+  Git branches are nothing but parallel line of development in same repository without affecting the `main` branch.
+  Creating git branch will create an exact copy of present state of the branch from where you are executing the branch
+  creation command. We create git branches for testing, adding new feature, fixing bugs etc.
+```
+```bash
+git branch                        # To check name of the available branches 
+git branch Feature                # To create 'Feature' branch
+git branch dev                    # To create 'dev' branch
+git branch                        # To verify, * means you right now on that branch
+git push -u origin --all          # To push all branches to remote repository
 
-
+# Now go to GitHub repo and refresh the page to check number branches and name of them
+```
+![image alt](https://github.com/souravhajra123/ElevateLabsTask4/blob/45b21e92e43e565ad062c30dc3bc777d42c0e0db/images/15.JPG)
+![image alt](https://github.com/souravhajra123/ElevateLabsTask4/blob/45b21e92e43e565ad062c30dc3bc777d42c0e0db/images/16.JPG)
 
 
 
