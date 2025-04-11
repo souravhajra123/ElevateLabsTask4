@@ -173,15 +173,40 @@ git push origin Feature
 
 ![image alt](https://github.com/souravhajra123/ElevateLabsTask4/blob/6d78d369b07216e72c867614b07c49c7f3356676/images/24.JPG)
 
+# 17. Now merge the `dev` branch to `main` by same way
 
+  * Create `PR` to merge `dev` `→` `main`
 
+![image alt](https://github.com/souravhajra123/ElevateLabsTask4/blob/51aee1839ab4306621aa15f4247ae13a44dbcbc4/images/25.JPG)
 
+  * Check and Merge the `PR`
 
+![image alt](https://github.com/souravhajra123/ElevateLabsTask4/blob/51aee1839ab4306621aa15f4247ae13a44dbcbc4/images/26.JPG)
 
+  * `PR` is successfully merged and closed
 
+![image alt](https://github.com/souravhajra123/ElevateLabsTask4/blob/51aee1839ab4306621aa15f4247ae13a44dbcbc4/images/27.JPG)
 
+  * Checkout to `main` branch, there you can see that new feature file got added in that branch
 
+![image alt](https://github.com/souravhajra123/ElevateLabsTask4/blob/51aee1839ab4306621aa15f4247ae13a44dbcbc4/images/28.JPG)
 
+# 18. Now add some `readme` files in `main` branch, then add, commit and push it to the remote repository
+```bash
+touch README.md TASKS.md
+ls
+git status
+git add .
+git commit -m "readme files are added"
+git push -u origin main
+
+# Now go to GitHub repo and checkout to `main` branch, there you can see the new readme files are added
+```
+![image alt](https://github.com/souravhajra123/ElevateLabsTask4/blob/51aee1839ab4306621aa15f4247ae13a44dbcbc4/images/29.JPG)
+![image alt](https://github.com/souravhajra123/ElevateLabsTask4/blob/51aee1839ab4306621aa15f4247ae13a44dbcbc4/images/30.JPG)
+
+## Following is the gitflow workflow architecture on GIT & GitHub
+![image alt](https://github.com/souravhajra123/ElevateLabsTask4/blob/51aee1839ab4306621aa15f4247ae13a44dbcbc4/images/git%20flow.png)
 
 
 
