@@ -26,7 +26,7 @@ cd Task4
 ```
 ![image alt](https://github.com/souravhajra123/ElevateLabsTask4/blob/c55807d8557974649c7c7af66e910641731f4c71/images/5.JPG)
 
-## 6. Configure Git:
+## 6. Configure `Git`:
   * This is a best practice to track who has done what and when.
 ```bash
 git config --global user.name "<your_name>"     # To configure name of the user
