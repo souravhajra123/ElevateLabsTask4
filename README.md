@@ -133,10 +133,27 @@ git push -u origin --all          # To push all branches to remote repository
 ![image alt](https://github.com/souravhajra123/ElevateLabsTask4/blob/45b21e92e43e565ad062c30dc3bc777d42c0e0db/images/15.JPG)
 ![image alt](https://github.com/souravhajra123/ElevateLabsTask4/blob/45b21e92e43e565ad062c30dc3bc777d42c0e0db/images/16.JPG)
 
+# 14. Checkout to `Feature` branch and list down the contents, you can see that all files from `main` branch is copied to that branch
+```bash
+git checkout Feature    # To checkout to the `Feature` branch
+ls                      # List down the contents
+```
+![image alt](https://github.com/souravhajra123/ElevateLabsTask4/blob/827775e4ff17bb76c7930a1b8c1d757248a82115/images/17.JPG)
 
+# 15. Now add some files in `Feature` branch, add and commit them and then push the changes to the GitHub repository
+```bash
+echo "This is a new feature" > feature.txt
+cat feature.txt
+git status
+git add feature.txt
+git commit -m "A new feature is added"
+git status
+git push origin Feature
 
-
-
+# Now go to GitHub repo's Feature branch, there you can find the the new file is added
+```
+![image alt](https://github.com/souravhajra123/ElevateLabsTask4/blob/827775e4ff17bb76c7930a1b8c1d757248a82115/images/18.JPG)
+![image alt](https://github.com/souravhajra123/ElevateLabsTask4/blob/827775e4ff17bb76c7930a1b8c1d757248a82115/images/20.JPG)
 
 
 
