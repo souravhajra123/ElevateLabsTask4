@@ -79,11 +79,12 @@ git status
 
 ```markdown
 # .gitignore:
-  Some files we don't want to be tracked by GIT, but in this case, whenever we run "git status", GIT will keep showing us
-  message that "some files are untracked" and sometimes this message is very annoying. So to tell GIT that no need to track
-  such files we create .gitignore file and write those file names which we dont want to track, inside .gitignore file. By
-  this GIT will understand that these files are not needed to be tracked and stopped throwing that annoying message. As we
-  are modifying .gitignore by writing these file names in it, we need to add and commit .gitignore file.
+  Some files we don't want to be tracked by GIT, but in this case, whenever we run "git status", GIT
+  will keep showing us message that "some files are untracked" and sometimes this message is very
+  annoying. So to tell GIT that no need to track such files we create .gitignore file and write those
+  file names which we dont want to track, inside .gitignore file. By this GIT will understand that
+  these files are not needed to be tracked and stopped throwing that annoying message. As we are
+  modifying .gitignore by writing these file names in it, we need to add and commit .gitignore file.
 ```
 ```bash
 nano .gitignore   # Now add the file names
