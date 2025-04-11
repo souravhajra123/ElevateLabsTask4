@@ -27,9 +27,7 @@ cd Task4
 ![image alt](https://github.com/souravhajra123/ElevateLabsTask4/blob/c55807d8557974649c7c7af66e910641731f4c71/images/5.JPG)
 
 # 6. Configure Git:
-```markdown
   * This is a best practice to track who has done what and when.
-```
 ```bash
 git config --global user.name "<your_name>"     # To configure name of the user
 git config --global user.email "<your_email>"   # To configure email of the user
@@ -46,11 +44,8 @@ git init
 ![image alt](https://github.com/souravhajra123/ElevateLabsTask4/blob/c55807d8557974649c7c7af66e910641731f4c71/images/7.JPG)
 
 # 8. Now create a file:
-
-```markdown
   * Whenever you create a file in `git` initiated directory, the file initially will be under control of your OS only, if you want `git` to track your file, you have to give permission to `git` to do so.
     Granting `git` permission to track your changes is a two step process, i.e, `git add <file_name>` & `git commit -m <commit_message>`
-```
 ```bash
 touch file.txt
 ls
