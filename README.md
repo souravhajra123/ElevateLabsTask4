@@ -1,32 +1,32 @@
-## Build a Version-Controlled DevOps Project with Git and GitHub
+# Build a Version-Controlled DevOps Project with Git and GitHub
 
-# 1. launch an EC2 Instance 
+## 1. launch an EC2 Instance 
 ![image alt](https://github.com/souravhajra123/ElevateLabsTask4/blob/e311d0bed3333bf077b1a4c243eb3d2eb4cfc0ae/images/1.JPG)
 
-# 2. Connect to the EC2 Instance
+## 2. Connect to the EC2 Instance
 ![image alt](https://github.com/souravhajra123/ElevateLabsTask4/blob/c55807d8557974649c7c7af66e910641731f4c71/images/2.JPG)
 
-# 3. Update the Instance
+## 3. Update the Instance
 ```bash
 sudo apt-get update
 ```
 ![image alt](https://github.com/souravhajra123/ElevateLabsTask4/blob/c55807d8557974649c7c7af66e910641731f4c71/images/3.JPG)
 
-# 4. Install `Git`
+## 4. Install `Git`
 ```bash
 sudo apt-get install git
 git --version
 ```
 ![image alt](https://github.com/souravhajra123/ElevateLabsTask4/blob/c55807d8557974649c7c7af66e910641731f4c71/images/4.JPG)
 
-# 5. Create a working directory(`Task4`) & go inside the directory
+## 5. Create a working directory(`Task4`) & go inside the directory
 ```bash
 mkdir Task4
 cd Task4
 ```
 ![image alt](https://github.com/souravhajra123/ElevateLabsTask4/blob/c55807d8557974649c7c7af66e910641731f4c71/images/5.JPG)
 
-# 6. Configure Git:
+## 6. Configure Git:
   * This is a best practice to track who has done what and when.
 ```bash
 git config --global user.name "<your_name>"     # To configure name of the user
@@ -36,14 +36,14 @@ git config --list                               # To check the configuration
 ```
 ![image alt](https://github.com/souravhajra123/ElevateLabsTask4/blob/c55807d8557974649c7c7af66e910641731f4c71/images/6.JPG)
 
-# 7. Initialize `Git`:
+## 7. Initialize `Git`:
   * It will create empty `.git` repository in your current directory and now on `Git` can track your files if you ask `Git` to do so.
 ```bash
 git init
 ```
 ![image alt](https://github.com/souravhajra123/ElevateLabsTask4/blob/c55807d8557974649c7c7af66e910641731f4c71/images/7.JPG)
 
-# 8. Now create a file:
+## 8. Now create a file:
   * Whenever you create a file in `git` initiated directory, the file initially will be under control of your OS only, if you want `git` to track your file, you have to give permission to `git` to do so.
     Granting `git` permission to track your changes is a two step process, i.e, `git add <file_name>` & `git commit -m <commit_message>`
 ```bash
@@ -58,7 +58,7 @@ git status
 ```
 ![image alt](https://github.com/souravhajra123/ElevateLabsTask4/blob/c55807d8557974649c7c7af66e910641731f4c71/images/8.JPG)
 
-# 9. Create some `.log` & `.mov` files and do not commit them
+## 9. Create some `.log` & `.mov` files and do not commit them
 ```bash
 touch A.log B.log C.log x.mov y.mov z.mov
 ls
@@ -66,7 +66,7 @@ git status
 ```
 ![image alt](https://github.com/souravhajra123/ElevateLabsTask4/blob/c55807d8557974649c7c7af66e910641731f4c71/images/9.JPG)
 
-# 10. Create `.gitignore` file, add and commit the `.gitignore` file
+## 10. Create `.gitignore` file, add and commit the `.gitignore` file
 ```bash
 touch .gitignore
 ls -la
@@ -99,10 +99,10 @@ git status
 ```
 ![image alt](https://github.com/souravhajra123/ElevateLabsTask4/blob/c55807d8557974649c7c7af66e910641731f4c71/images/11.JPG)
 
-# 11. Go to your GitHub account and create a public repository
+## 11. Go to your GitHub account and create a public repository
 ![image alt](https://github.com/souravhajra123/ElevateLabsTask4/blob/12738f50588f3ab6be5d624249d1aef1184cc8a1/images/12.JPG)
 
-# 12. Now execute few commands to sync Local GIT repository with Remote GitHub repository. After syncing push the changes to remote repository and refresh the GitHub repository page.
+## 12. Now execute few commands to sync Local GIT repository with Remote GitHub repository. After syncing push the changes to remote repository and refresh the GitHub repository page.
 ```bash
 git branch                                  # Check branch name
 git branch -M main                          # Change the branch name to 'main'
@@ -115,7 +115,7 @@ git push -u origin main                     # Push the contents from local repo 
 ![image alt](https://github.com/souravhajra123/ElevateLabsTask4/blob/45b21e92e43e565ad062c30dc3bc777d42c0e0db/images/13.JPG)
 ![image alt](https://github.com/souravhajra123/ElevateLabsTask4/blob/45b21e92e43e565ad062c30dc3bc777d42c0e0db/images/14.JPG)
 
-# 13. Create branches(`Feature` and `dev`) in local GIT repository and then push them to remote repository
+## 13. Create branches(`Feature` and `dev`) in local GIT repository and then push them to remote repository
 ```markdown
 # Git Branching:
   Git branches are nothing but parallel line of development in same repository without affecting the
@@ -135,14 +135,14 @@ git push -u origin --all          # To push all branches to remote repository
 ![image alt](https://github.com/souravhajra123/ElevateLabsTask4/blob/45b21e92e43e565ad062c30dc3bc777d42c0e0db/images/15.JPG)
 ![image alt](https://github.com/souravhajra123/ElevateLabsTask4/blob/45b21e92e43e565ad062c30dc3bc777d42c0e0db/images/16.JPG)
 
-# 14. Checkout to `Feature` branch and list down the contents, you can see that all files from `main` branch is copied to that branch
+## 14. Checkout to `Feature` branch and list down the contents, you can see that all files from `main` branch is copied to that branch
 ```bash
 git checkout Feature    # To checkout to the `Feature` branch
 ls                      # List down the contents
 ```
 ![image alt](https://github.com/souravhajra123/ElevateLabsTask4/blob/827775e4ff17bb76c7930a1b8c1d757248a82115/images/17.JPG)
 
-# 15. Now add some files in `Feature` branch, add and commit them and then push the changes to the GitHub repository
+## 15. Now add some files in `Feature` branch, add and commit them and then push the changes to the GitHub repository
 ```bash
 echo "This is a new feature" > feature.txt
 cat feature.txt
@@ -157,7 +157,7 @@ git push origin Feature
 ![image alt](https://github.com/souravhajra123/ElevateLabsTask4/blob/827775e4ff17bb76c7930a1b8c1d757248a82115/images/18.JPG)
 ![image alt](https://github.com/souravhajra123/ElevateLabsTask4/blob/827775e4ff17bb76c7930a1b8c1d757248a82115/images/20.JPG)
 
-# 16. Now we will merge `Feature` branch to `dev` branch by creating `Pull Request` in GitHub console
+## 16. Now we will merge `Feature` branch to `dev` branch by creating `Pull Request` in GitHub console
 
   * Create `PR` to merge `Feature` `→` `dev`
 
@@ -175,7 +175,7 @@ git push origin Feature
 
 ![image alt](https://github.com/souravhajra123/ElevateLabsTask4/blob/6d78d369b07216e72c867614b07c49c7f3356676/images/24.JPG)
 
-# 17. Now merge the `dev` branch to `main` by same way
+## 17. Now merge the `dev` branch to `main` by same way
 
   * Create `PR` to merge `dev` `→` `main`
 
@@ -193,7 +193,7 @@ git push origin Feature
 
 ![image alt](https://github.com/souravhajra123/ElevateLabsTask4/blob/51aee1839ab4306621aa15f4247ae13a44dbcbc4/images/28.JPG)
 
-# 18. Now add some `readme` files in `main` branch, then add, commit and push it to the remote repository
+## 18. Now add some `readme` files in `main` branch, then add, commit and push it to the remote repository
 ```bash
 touch README.md TASKS.md
 ls
@@ -207,8 +207,5 @@ git push -u origin main
 ![image alt](https://github.com/souravhajra123/ElevateLabsTask4/blob/51aee1839ab4306621aa15f4247ae13a44dbcbc4/images/29.JPG)
 ![image alt](https://github.com/souravhajra123/ElevateLabsTask4/blob/51aee1839ab4306621aa15f4247ae13a44dbcbc4/images/30.JPG)
 
-## Following is the gitflow workflow architecture on GIT & GitHub
+# Following is the gitflow workflow architecture on GIT & GitHub
 ![image alt](https://github.com/souravhajra123/ElevateLabsTask4/blob/51aee1839ab4306621aa15f4247ae13a44dbcbc4/images/git%20flow.png)
-
-
-
