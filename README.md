@@ -98,7 +98,18 @@ git status
 ```
 ![image alt](https://github.com/souravhajra123/ElevateLabsTask4/blob/c55807d8557974649c7c7af66e910641731f4c71/images/11.JPG)
 
+# 11. Go to your GitHub account and create a public repository
+![image alt](https://github.com/souravhajra123/ElevateLabsTask4/blob/12738f50588f3ab6be5d624249d1aef1184cc8a1/images/12.JPG)
 
+# 12. Now execute few commands to sync Local GIT repository with Remote GitHub repository. After syncing push the changes to remote repository and refresh the GitHub repository page.
+```bash
+git branch                                  # Check branch name
+git branch -M main                          # Change the branch name to 'main'
+git branch                                  # Verify the branch name again
+git remote add origin <github_repo_url>     # Sync local repo with remote repo
+git push -u origin main                     # Push the contents from local repo to remote repo
+# refresh the GitHub repository page
+```
 
 
 
