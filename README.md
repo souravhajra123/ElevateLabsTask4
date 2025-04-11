@@ -157,6 +157,14 @@ git push origin Feature
 
 # 16. Now we will merge `Feature` branch to `dev` branch by creating `Pull Request` in GitHub console
   * Create `PR` to merge `Feature` `→` `dev`
+![image alt](https://github.com/souravhajra123/ElevateLabsTask4/blob/6d78d369b07216e72c867614b07c49c7f3356676/images/21.JPG)
+  * Check and Merge the `PR`
+![image alt](https://github.com/souravhajra123/ElevateLabsTask4/blob/6d78d369b07216e72c867614b07c49c7f3356676/images/22.JPG)
+  * `PR` is successfully merged and closed
+![image alt](https://github.com/souravhajra123/ElevateLabsTask4/blob/6d78d369b07216e72c867614b07c49c7f3356676/images/23.JPG)
+  * Checkout to `dev` branch, there you can see that new feature file got added in that branch
+![image alt](https://github.com/souravhajra123/ElevateLabsTask4/blob/6d78d369b07216e72c867614b07c49c7f3356676/images/24.JPG)
+
 
 
 
